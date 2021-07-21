@@ -1,0 +1,450 @@
+@font-face {
+    font-family: 'Config Condensed';
+    src: url('fonts/ConfigCondensed-Black.woff2') format('woff2'),
+        url('fonts/ConfigCondensed-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Config Condensed';
+    src: url('fonts/ConfigCondensed-BlackItalic.woff2') format('woff2'),
+        url('fonts/ConfigCondensed-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Config Condensed';
+    src: url('fonts/ConfigCondensed-Bold.woff2') format('woff2'),
+        url('fonts/ConfigCondensed-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Config Condensed';
+    src: url('fonts/ConfigCondensed-ExtraLight.woff2') format('woff2'),
+        url('fonts/ConfigCondensed-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Config Condensed';
+    src: url('fonts/ConfigCondensed-SemiBoldItalic.woff2') format('woff2'),
+        url('fonts/ConfigCondensed-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Config Condensed';
+    src: url('fonts/ConfigCondensed-MediumItalic.woff2') format('woff2'),
+        url('fonts/ConfigCondensed-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Config Condensed';
+    src: url('fonts/ConfigCondensed-Italic.woff2') format('woff2'),
+        url('fonts/ConfigCondensed-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Config Condensed';
+    src: url('fonts/ConfigCondensed-ExtraBoldItalic.woff2') format('woff2'),
+        url('fonts/ConfigCondensed-ExtraBoldItalic.woff') format('woff');
+    font-weight: 800;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Config Condensed Text';
+    src: url('fonts/ConfigCondensed-TextItalic.woff2') format('woff2'),
+        url('fonts/ConfigCondensed-TextItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Config Condensed';
+    src: url('fonts/ConfigCondensed-ThinItalic.woff2') format('woff2'),
+        url('fonts/ConfigCondensed-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Config Condensed';
+    src: url('fonts/ConfigCondensed-Medium.woff2') format('woff2'),
+        url('fonts/ConfigCondensed-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Config Condensed';
+    src: url('fonts/ConfigCondensed-ExtraLightItalic.woff2') format('woff2'),
+        url('fonts/ConfigCondensed-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Config Condensed';
+    src: url('fonts/ConfigCondensed-Light.woff2') format('woff2'),
+        url('fonts/ConfigCondensed-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Config Condensed';
+    src: url('fonts/ConfigCondensed-SemiBold.woff2') format('woff2'),
+        url('fonts/ConfigCondensed-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Config Condensed Text';
+    src: url('fonts/ConfigCondensed-Text.woff2') format('woff2'),
+        url('fonts/ConfigCondensed-Text.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Config Condensed';
+    src: url('fonts/ConfigCondensed-Regular.woff2') format('woff2'),
+        url('fonts/ConfigCondensed-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Config Condensed';
+    src: url('fonts/ConfigCondensed-BoldItalic.woff2') format('woff2'),
+        url('fonts/ConfigCondensed-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Config Condensed';
+    src: url('fonts/ConfigCondensed-ExtraBold.woff2') format('woff2'),
+        url('fonts/ConfigCondensed-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Config Condensed';
+    src: url('fonts/ConfigCondensed-LightItalic.woff2') format('woff2'),
+        url('fonts/ConfigCondensed-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Config Condensed';
+    src: url('fonts/ConfigCondensed-Thin.woff2') format('woff2'),
+        url('fonts/ConfigCondensed-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('fonts/PlayfairDisplay-Black.woff2') format('woff2'),
+        url('fonts/PlayfairDisplay-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('fonts/PlayfairDisplay-Medium.woff2') format('woff2'),
+        url('fonts/PlayfairDisplay-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('fonts/PlayfairDisplay-ExtraBold.woff2') format('woff2'),
+        url('fonts/PlayfairDisplay-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('fonts/PlayfairDisplay-Italic.woff2') format('woff2'),
+        url('fonts/PlayfairDisplay-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('fonts/PlayfairDisplay-Bold.woff2') format('woff2'),
+        url('fonts/PlayfairDisplay-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('fonts/PlayfairDisplay-MediumItalic.woff2') format('woff2'),
+        url('fonts/PlayfairDisplay-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('fonts/PlayfairDisplay-BoldItalic.woff2') format('woff2'),
+        url('fonts/PlayfairDisplay-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('fonts/PlayfairDisplay-SemiBold.woff2') format('woff2'),
+        url('fonts/PlayfairDisplay-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('fonts/PlayfairDisplay-Regular.woff2') format('woff2'),
+        url('fonts/PlayfairDisplay-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('fonts/PlayfairDisplay-ExtraBoldItalic.woff2') format('woff2'),
+        url('fonts/PlayfairDisplay-ExtraBoldItalic.woff') format('woff');
+    font-weight: 800;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('fonts/PlayfairDisplay-SemiBoldItalic.woff2') format('woff2'),
+        url('fonts/PlayfairDisplay-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('fonts/PlayfairDisplay-BlackItalic.woff2') format('woff2'),
+        url('fonts/PlayfairDisplay-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Prompt';
+    src: url('fonts/Prompt-Black.woff2') format('woff2'),
+        url('fonts/Prompt-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Prompt';
+    src: url('fonts/Prompt-BlackItalic.woff2') format('woff2'),
+        url('fonts/Prompt-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Prompt';
+    src: url('fonts/Prompt-ExtraBold.woff2') format('woff2'),
+        url('fonts/Prompt-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Prompt';
+    src: url('fonts/Prompt-Bold.woff2') format('woff2'),
+        url('fonts/Prompt-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Prompt';
+    src: url('fonts/Prompt-BoldItalic.woff2') format('woff2'),
+        url('fonts/Prompt-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Prompt';
+    src: url('fonts/Prompt-ExtraBoldItalic.woff2') format('woff2'),
+        url('fonts/Prompt-ExtraBoldItalic.woff') format('woff');
+    font-weight: 800;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Prompt';
+    src: url('fonts/Prompt-ExtraLightItalic.woff2') format('woff2'),
+        url('fonts/Prompt-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Prompt';
+    src: url('fonts/Prompt-MediumItalic.woff2') format('woff2'),
+        url('fonts/Prompt-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Prompt';
+    src: url('fonts/Prompt-Medium.woff2') format('woff2'),
+        url('fonts/Prompt-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Prompt';
+    src: url('fonts/Prompt-SemiBold.woff2') format('woff2'),
+        url('fonts/Prompt-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Prompt';
+    src: url('fonts/Prompt-Regular.woff2') format('woff2'),
+        url('fonts/Prompt-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Prompt';
+    src: url('fonts/Prompt-Light.woff2') format('woff2'),
+        url('fonts/Prompt-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Prompt';
+    src: url('fonts/Prompt-LightItalic.woff2') format('woff2'),
+        url('fonts/Prompt-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Prompt';
+    src: url('fonts/Prompt-Thin.woff2') format('woff2'),
+        url('fonts/Prompt-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Prompt';
+    src: url('fonts/Prompt-Italic.woff2') format('woff2'),
+        url('fonts/Prompt-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Prompt';
+    src: url('fonts/Prompt-ExtraLight.woff2') format('woff2'),
+        url('fonts/Prompt-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Prompt';
+    src: url('fonts/Prompt-SemiBoldItalic.woff2') format('woff2'),
+        url('fonts/Prompt-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Prompt';
+    src: url('fonts/Prompt-ThinItalic.woff2') format('woff2'),
+        url('fonts/Prompt-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
